@@ -13,7 +13,7 @@ const DateInput: React.FC<IProps> = ({
     placeholder,
     date = false,
     time = false,
-    meta: { touched, error },
+    meta: { touched, error }
   }) => {
     return (
         <Form.Field error={touched && !!error} width={width}>
